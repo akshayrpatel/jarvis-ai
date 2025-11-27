@@ -1,0 +1,20 @@
+[project]
+name = "jarvis-langchain-server"
+version = "1.0"
+description = "backend server for jarvis"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.3.5",
+    "fastapi>=0.121.3",
+    "fastembed>=0.7.3",
+    "langchain-core>=1.0.7",
+    "langchain-groq>=1.1.0",
+    "langchain-mistralai>=1.0.1",
+    "langchain-openai>=1.1.0",
+    "numpy>=2.3.5",
+    "pydantic>=2.12.4",
+    "pydantic-settings>=2.12.0",
+    "typing>=3.10.0.0",
+    "uvicorn[standard]>=0.38.0",
+]

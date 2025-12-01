@@ -4,6 +4,13 @@
 
 This project was created to learn modern AI engineering concepts, RAG pipelines, vector search, embeddings, worker queues, service orchestration, while building a chatbot experience for my portfolio.
 
+**Live Demo:** You can try out Jarvis - [here](https://akshayrpatel.github.io/).  
+**Note:** The backend server may take a few moments to initialize, and you'll see a memoji at the bottom right once things are up and running.
+
+> [!CAUTION]
+> A single AI query consumes significantly more energy than a standard web search, roughly 1000× more. We should all be mindful of the environmental impact in this transformative AI era. [(source)](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/)
+
+
 ## System Overview
 
 Jarvis is composed of three interconnected components:
